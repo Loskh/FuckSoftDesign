@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "c",
+        "c++config.h": "c",
+        "ostream": "c",
+        "ios": "c"
+    }
+}
