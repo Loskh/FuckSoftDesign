@@ -12,6 +12,10 @@
         "vector": "cpp",
         "typeinfo": "cpp",
         "sstream": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "iosfwd": "cpp",
+        "fstream": "cpp",
+        "string": "cpp",
+        "iomanip": "cpp"
     }
 }
