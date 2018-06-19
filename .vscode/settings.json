@@ -3,6 +3,13 @@
         "iostream": "c",
         "c++config.h": "c",
         "ostream": "c",
-        "ios": "c"
+        "ios": "c",
+        "initializer_list": "c",
+        "*.tcc": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "typeinfo": "cpp"
     }
 }

@@ -10,7 +10,6 @@
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
-            "internalConsoleOptions": "neverOpen",
             "preLaunchTask": "build",  
             "MIMode": "gdb",
             "setupCommands": [
