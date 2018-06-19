@@ -31,6 +31,7 @@ char init_dic() {
 }
 int main() {
   init_dic();
+  srand((unsigned)time(NULL));
   string words;
   string input;
   int count = 0;
@@ -46,9 +47,8 @@ int main() {
       right++;
     } else
       cout << "wrong";
-    right_rate = double(right / count);
-    cout << right << count << endl;
-    cout << fixed << setprecision(2) << right_rate << endl;
+    right_rate = (double)(right * 1.0 / count * 1.0);
+    cout << "  正确率" << fixed << setprecision(2) << right_rate << endl;
   }
 
   return 0;
