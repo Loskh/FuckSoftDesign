@@ -91,16 +91,16 @@
     (1)总控模块
     功能：编制菜单，不断从菜单选择计算或查询功能执行，直到退出。
     程序流程图：
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
+    ```flow
+    st=>start: Start
+    op=>operation: Your Operation
+    cond=>condition: Yes or No?
+    e=>end
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+    st->op->cond
+    cond(yes)->e
+    cond(no)->op
+    ```
     (2)计算
     (3)查询～
     7.实现 
