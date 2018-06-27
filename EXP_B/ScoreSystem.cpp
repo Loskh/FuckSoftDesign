@@ -2,9 +2,10 @@
  * @Author: B15020411
  * @Date: 2018-06-21 18:30:35
  * @LastEditors: B15020411
- * @LastEditTime: 2018-06-21 18:34:23
+ * @LastEditTime: 2018-06-27 17:59:12
  * @Description: この素晴らしい世界に爆焔を！
  */
+#include <curses.h>
 #include <algorithm>
 #include <fstream>
 #include <iostream>
@@ -103,6 +104,7 @@ int main() {
       goto end;
     } else
       n = i[0] - 48;
+    CLEAR();
     switch (n) {
       case 1:
         DisplayResult(stu, N);

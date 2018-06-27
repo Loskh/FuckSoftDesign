@@ -2,12 +2,13 @@
  * @Author: B15020411
  * @Date: 2018-06-21 18:30:44
  * @LastEditors: B15020411
- * @LastEditTime: 2018-06-21 18:36:56
+ * @LastEditTime: 2018-06-27 18:29:21
  * @Description: この素晴らしい世界に爆焔を！
  */
 
 #include <algorithm>
 #include <iostream>
+#include <sstream>
 #include <string>
 #include <vector>
 using namespace std;
@@ -25,6 +26,7 @@ class Student {
   float GetZP();
   char GetDJ();
   void print();
+  string result();
   void DataIn(database db);
   void SetId(long NO);
   void ComputeZP();
@@ -54,6 +56,11 @@ char Student::GetDJ() { return score.grade; };
 void Student::print() {
   cout << ID << " " << GetZP() << " " << GetDJ() << endl;
 };
+string Student::result() {
+  std::stringstream ss;
+  ss << ID << "    " << GetZP() << "    " << GetDJ() << endl;
+  return ss.str();
+}
 void Student::DataIn(database db) {
   Student::SetId(db.NO);
   score.regular = db.regular;
