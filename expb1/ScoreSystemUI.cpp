@@ -2,7 +2,7 @@
  * @Author: B15020411
  * @Date: 2018-06-27 16:19:21
  * @LastEditors: B15020411
- * @LastEditTime: 2018-06-27 19:07:13
+ * @LastEditTime: 2018-06-27 19:28:53
  * @Description: この素晴らしい世界に爆焔を！
  */
 
@@ -214,8 +214,8 @@ int main() {
   init_curses();
 
   bkgd(COLOR_PAIR(1));
-  menubar = subwin(stdscr, 1, 80, 0, 0);
-  messagebar = subwin(stdscr, 1, 79, 23, 1);
+  menubar = subwin(stdscr, 1, COLS, 0, 0);
+  messagebar = subwin(stdscr, 1, COLS - 1, LINES - 1, 1);
   draw_menubar(menubar);
   werase(messagebar);
   wrefresh(messagebar);
