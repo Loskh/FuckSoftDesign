@@ -2,12 +2,12 @@
  * @Author: B15020411
  * @Date: 2018-06-27 16:19:21
  * @LastEditors: B15020411
- * @LastEditTime: 2018-06-27 19:28:53
+ * @LastEditTime: 2018-06-28 00:22:28
  * @Description: この素晴らしい世界に爆焔を！
  */
 
-#include <curses.h>
 #include <locale.h>
+#include <ncursesw/curses.h>
 #include <stdlib.h>
 #include <algorithm>
 #include <fstream>

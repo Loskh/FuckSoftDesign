@@ -5,7 +5,6 @@
  * @LastEditTime: 2018-06-27 17:59:12
  * @Description: この素晴らしい世界に爆焔を！
  */
-#include <curses.h>
 #include <algorithm>
 #include <fstream>
 #include <iostream>
