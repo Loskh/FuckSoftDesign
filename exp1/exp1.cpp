@@ -20,9 +20,7 @@ typedef struct student {
   char name[20];
   int score;
 } student;
-bool compare(student a, student b) {
-  return a.score < b.score;  //升序排列，如果改为return a>b，则为降序
-}
+bool compare(student a, student b) { return a.score < b.score; }
 
 int main() {
   int N;

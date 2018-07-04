@@ -129,8 +129,8 @@ void DisplayLevelList(vector<Student> &stu, int N) {
     //   cout << "等级" << level << "的名单:" << endl;
     // }
     ss.str("");
-    ss << "|  " << stu[i].GetId() << "  |    " << stu[i].GetZP() << "   |  "
-       << stu[i].GetDJ() << "  |";
+    ss << "|  " << v0[i].GetId() << "  |    " << v0[i].GetZP() << "   |  "
+       << v0[i].GetDJ() << "  |";
     //   ss << "|  994203  |    78   |  C  |";
     s = ss.str();
     mvprintw(y++, x, s.c_str());
